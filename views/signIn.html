@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <div class="login-body">
+      <div class="login-bac-img"><img src="/images/bj-login.jpg"></div>
+      <div class="login-detail">
+        <div class="login-detail-title">注册账号</div>
+        <form method="post">
+          <div class="login-detail-content">
+            <div class="login-detail-input"><i class="iconfont">&#xe801;</i>
+              <input type="text" placeholder="请输入用户名" maxlength="20" name="name">
+            </div>
+            <div class="login-detail-input mg-top"><i class="iconfont">&#xe680;</i>
+              <input type="password" placeholder="请输入密码" maxlength="20" name="password">
+            </div>
+            <div class="login-detail-input mg-top code-set"><i class="iconfont">&#xe640;</i>
+              <input type="text" placeholder="验证码" maxlength="6" name="secret_code">
+              <div class="identifying-code"><img src="/images/yzm.jpg"><span>换一个</span></div>
+            </div>
+            <div class="login-detail-button">
+              <button type="submit">登录</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

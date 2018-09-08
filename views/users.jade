@@ -1,0 +1,12 @@
+//
+   Created by perfect on 2017/5/1.
+
+extends layout
+
+block content
+  form(method="post", enctype="multipart/form-data")
+    div.form-group
+      label(for='inputFile') 文件上传
+      input(type='file', name='inputFile')#inputFile
+    div
+      button(type='submit').btn.btn-default 提交

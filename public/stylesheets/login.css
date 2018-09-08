@@ -1,0 +1,178 @@
+* {
+    font-family: 'Microsoft YaHei UI';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 282362 */
+    src: url('//at.alicdn.com/t/font_z08hx9hvij1kmx6r.eot');
+    src: url('//at.alicdn.com/t/font_z08hx9hvij1kmx6r.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_z08hx9hvij1kmx6r.woff') format('woff'),
+    url('//at.alicdn.com/t/font_z08hx9hvij1kmx6r.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_z08hx9hvij1kmx6r.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont";
+    font-size: 25px;
+    font-style: normal;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.title-top {
+    height: 105px;
+    line-height: 105px;
+}
+
+.title-top .title-img {
+    display: inline-block
+}
+
+.title-top .title-detail {
+    display: inline-block;
+    float: right;
+}
+
+.title-top .title-img img {
+    height: 55px;
+    vertical-align: middle;
+}
+
+.title-select, .title-select li {
+    list-style: none; /* 将默认的列表符号去掉 */
+    padding: 0; /* 将默认的内边距去掉 */
+    margin: 0; /* 将默认的外边距去掉 */
+}
+
+.title-select li {
+    float: left;
+}
+
+.title-select li a {
+    text-decoration: none;
+    color: #353232;
+    font-size: 16px;
+    padding: 0 25px;
+    border-right: 1px solid #353232;
+}
+
+.title-select li:last-child a {
+    border-right: none;
+}
+
+.login-body {
+    position: relative
+}
+
+.login-bac-img img {
+    width: 100%;
+}
+
+.login-detail {
+    width: 380px;
+    position: absolute;
+    top: 65px;
+    left: 55.06%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .6);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.login-detail .login-detail-title {
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: #ffa922;
+    color: #fff;
+    text-align: center
+}
+
+.login-detail .login-detail-content {
+    padding: 30px 35px 35px 35px;
+    background-color: #ffffff;
+    height: 100%
+}
+
+.login-detail-content .login-detail-input {
+    position: relative;
+}
+
+.login-detail-content .login-detail-input i {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    color: #67bd24;
+}
+
+.login-detail-content .login-detail-input input {
+    outline: none;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccead1;
+    background-color: #d1fcd8;
+    border-radius: 5px;
+    padding-left: 60px;
+    color: #93a095;
+    font-size: 16px;
+}
+
+.login-detail-input.mg-top {
+    margin-top: 15px;
+}
+
+.login-detail-button {
+    margin-top: 25px;
+}
+
+.login-detail-button button {
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #69c232;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    height: 40px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.login-detail-input.mg-top.code-set input {
+    /*width: 100px;*/
+    padding-right: 150px;
+}
+
+.login-bottom-info {
+    text-align: center;
+    font-size: 14px;
+    color: #242121;
+    margin: 35px 0;
+}
+
+.identifying-code {
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+
+.identifying-code img {
+    height: 30px
+}
+
+.identifying-code span {
+    float: right;
+    margin-top: 7px;
+    font-size: 14px;
+    color: #69c232;
+    margin-left: 10px;
+    cursor: pointer;
+}

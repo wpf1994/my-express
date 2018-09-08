@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div(style={position: 'absolute', top: '53px', right: '50px'})
+    if user
+      a(href="/logout").btn.btn-primary 注销  #{user}
+    else
+      a.btn.btn-primary 登录
+  div
+    table.table.table-hover.table-bordered
+      - var tableList = [{name:'a', sex:'1', age:'10'}, {name:'b', sex:'0', age:'10'}, {name:'c', sex:'0', age:'10'}]
+        each item in tableList
+         tr
+          td= item.name
+          td= item.sex
+          td= item.age
+  script(type='text/javascript').
+    $(function () {
+      console.log(123)
+    })

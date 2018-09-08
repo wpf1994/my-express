@@ -1,0 +1,28 @@
+//
+   Created by perfect on 2017/4/28.
+extends layout
+
+block content
+  link(rel="stylesheet" href="/stylesheets/login.css")
+  div.login-body
+    div.login-bac-img
+      img(src="/images/bj-login.jpg")
+    div.login-detail
+      div.login-detail-title 注册账号
+      form(method="post")
+        div.login-detail-content
+          div.login-detail-input
+            i.iconfont &#xe801;
+            input(type="text" placeholder="请输入用户名" maxlength="20" name="name")
+          div.login-detail-input.mg-top
+            i.iconfont &#xe680;
+            input(type="password" placeholder="请输入密码" maxlength="20" name="password")
+          div.login-detail-input.mg-top.code-set
+            i.iconfont &#xe640;
+            input(type="text" placeholder="验证码" maxlength="6" name="secret_code")
+            div.identifying-code
+              img(src="/images/yzm.jpg")
+              span 换一个
+          div.login-detail-button
+            button(type="submit") 登录
+
